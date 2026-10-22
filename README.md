@@ -4,6 +4,10 @@
 
 [![GitHub stars](https://img.shields.io/github/stars/Nekitoz/monokai-dark-vibrant-2.svg?style=social&label=Star&maxAge=2592000)](https://github.com/Nekitoz/monokai-dark-vibrant-2)
 
+> This is a fork of [larscom/monokai-dark-vibrant](https://github.com/larscom/monokai-dark-vibrant) by Lars Kniep, updated for modern VS Code: semantic highlighting, bracket pair colors, terminal ANSI colors, inlay hints, sticky scroll, git decorations and other UI elements added since 2019.
+>
+> Fork: https://github.com/Nekitoz/monokai-dark-vibrant-2
+
 ## Introduction
 
 This theme is optimized for TypeScript/JavaScript and HTML/CSS but other languages should work as well. This theme does not have any italic/bold fonts.
@@ -45,7 +49,7 @@ Pushing a tag `v<version>` (matching `version` in `package.json`) builds the `.v
 
 ## Customization
 
-If you are using VSCode 1.12+ versions you can customize the colors to your liking, overriding the ones provided by this theme. More info [here](https://code.visualstudio.com/docs/getstarted/theme-color-reference).
+You can override any color of this theme in your settings with `workbench.colorCustomizations` and `editor.tokenColorCustomizations`. More info [here](https://code.visualstudio.com/docs/getstarted/theme-color-reference).
 
 ## Questions/suggestions?
 

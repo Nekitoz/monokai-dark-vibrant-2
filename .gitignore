@@ -36,3 +36,6 @@ testem.log
 Thumbs.db
 /node/
 /target/
+
+# packaged extension
+*.vsix
