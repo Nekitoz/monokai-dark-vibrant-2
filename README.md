@@ -47,6 +47,10 @@ Pushing a tag `v<version>` (matching `version` in `package.json`) builds the `.v
 
 ![](https://raw.githubusercontent.com/Nekitoz/monokai-dark-vibrant-2/master/screenshots/react.png)
 
+### Python
+
+![](https://raw.githubusercontent.com/Nekitoz/monokai-dark-vibrant-2/master/screenshots/python.png)
+
 ## Customization
 
 You can override any color of this theme in your settings with `workbench.colorCustomizations` and `editor.tokenColorCustomizations`. More info [here](https://code.visualstudio.com/docs/getstarted/theme-color-reference).
