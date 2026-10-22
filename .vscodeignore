@@ -1,0 +1,7 @@
+.vscode/**
+.github/**
+.gitignore
+screenshots/**
+icons/icon.svg
+ISSUE_TEMPLATE.md
+**/*.vsix

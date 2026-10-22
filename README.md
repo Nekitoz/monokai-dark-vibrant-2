@@ -1,11 +1,8 @@
-# Monokai Dark Vibrant Theme
+# Monokai Dark Vibrant 2 Theme
 
-[![Version](https://vsmarketplacebadge.apphb.com/version/larscom.monokai-dark-vibrant.svg)](https://marketplace.visualstudio.com/items?itemName=larscom.monokai-dark-vibrant)
-[![Installs](https://vsmarketplacebadge.apphb.com/installs/larscom.monokai-dark-vibrant.svg)](https://marketplace.visualstudio.com/items?itemName=larscom.monokai-dark-vibrant)
-[![Ratings](https://vsmarketplacebadge.apphb.com/rating/larscom.monokai-dark-vibrant.svg)](https://marketplace.visualstudio.com/items?itemName=larscom.monokai-dark-vibrant)
-![GitHub license](https://img.shields.io/github/license/larscom/monokai-dark-vibrant.svg)
+![GitHub license](https://img.shields.io/github/license/Nekitoz/monokai-dark-vibrant-2.svg)
 
-[![GitHub stars](https://img.shields.io/github/stars/larscom/monokai-dark-vibrant.svg?style=social&label=Star&maxAge=2592000)](https://github.com/larscom/monokai-dark-vibrant)
+[![GitHub stars](https://img.shields.io/github/stars/Nekitoz/monokai-dark-vibrant-2.svg?style=social&label=Star&maxAge=2592000)](https://github.com/Nekitoz/monokai-dark-vibrant-2)
 
 ## Introduction
 
@@ -13,25 +10,38 @@ This theme is optimized for TypeScript/JavaScript and HTML/CSS but other languag
 
 ## Installing
 
-This extension is available for free in the [Visual Studio Code Marketplace](https://marketplace.visualstudio.com/items/larscom.monokai-dark-vibrant)
+Download the latest `.vsix` file from [GitHub Releases](https://github.com/Nekitoz/monokai-dark-vibrant-2/releases/latest), then either:
+
+- in VS Code open the Extensions view, click `...` → **Install from VSIX...** and pick the file, or
+- run in a terminal:
 
 ```
-ext install larscom.monokai-dark-vibrant
+code --install-extension monokai-dark-vibrant-2-<version>.vsix
 ```
+
+Then select the theme: `Ctrl+K Ctrl+T` → **Monokai Dark Vibrant 2**.
+
+## Building
+
+```
+npx @vscode/vsce package
+```
+
+Pushing a tag `v<version>` (matching `version` in `package.json`) builds the `.vsix` and attaches it to a GitHub Release automatically.
 
 ## Preview
 
 ### TypeScript
 
-![](https://raw.githubusercontent.com/larscom/monokai-dark-vibrant/master/screenshots/typescript.png)
+![](https://raw.githubusercontent.com/Nekitoz/monokai-dark-vibrant-2/master/screenshots/typescript.png)
 
 ### HTML
 
-![](https://raw.githubusercontent.com/larscom/monokai-dark-vibrant/master/screenshots/html.png)
+![](https://raw.githubusercontent.com/Nekitoz/monokai-dark-vibrant-2/master/screenshots/html.png)
 
 ### JSX/TSX
 
-![](https://raw.githubusercontent.com/larscom/monokai-dark-vibrant/master/screenshots/react.png)
+![](https://raw.githubusercontent.com/Nekitoz/monokai-dark-vibrant-2/master/screenshots/react.png)
 
 ## Customization
 
@@ -39,4 +49,4 @@ If you are using VSCode 1.12+ versions you can customize the colors to your liki
 
 ## Questions/suggestions?
 
-Create an issue on [GitHub](https://github.com/larscom/monokai-dark-vibrant/issues)
+Create an issue on [GitHub](https://github.com/Nekitoz/monokai-dark-vibrant-2/issues)
